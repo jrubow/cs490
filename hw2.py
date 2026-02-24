@@ -44,7 +44,7 @@ class SarcasmDataset(Dataset):
         """
         item = self.data[index]
         encoding = self.tokenizer(item['headline'], padding='max_length', truncation=True, max_length=self.max_length, return_attention_mask=True, return_tensors='pt')
-        return {'input_ids': encoding['input_ids'].squeeze(0).long(), 'attention_mask': encoding['attention_mask'].squeeze(0).long(), 'label': torch.tensor([int(item['is_sarcastic'])], dtype=torch.long)}
+        return {'input_ids': encoding['input_ids'].squeeze(0).long(),'attention_mask': encoding['attention_mask'].squeeze(0).long(),'label': torch.tensor(int(item['is_sarcastic']), dtype=torch.long),}
 
 # --- Model Class ---
 class SarcasmBERT(nn.Module):
