@@ -1,0 +1,13 @@
+perturbation_method,metric_type,value
+Original,DepTreeDepth,5.525372830457576
+Original,SubjVerbDepDist,3.0539013589861046
+Original,MeanDepDistance,2.902248960644248
+P1_AdjectiveToRelativeClause,DepTreeDepth,5.686008041940245
+P1_AdjectiveToRelativeClause,SubjVerbDepDist,3.7549244159413653
+P1_AdjectiveToRelativeClause,MeanDepDistance,3.0653761055967084
+P2_AppositiveInsertion,DepTreeDepth,5.725810556319031
+P2_AppositiveInsertion,SubjVerbDepDist,4.3509441645034865
+P2_AppositiveInsertion,MeanDepDistance,3.122049371754987
+P3_AdverbialPhraseInsertion,DepTreeDepth,5.514073395429327
+P3_AdverbialPhraseInsertion,SubjVerbDepDist,4.317962029826437
+P3_AdverbialPhraseInsertion,MeanDepDistance,3.4749874474661624

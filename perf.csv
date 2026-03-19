@@ -1,0 +1,17 @@
+model,perturbation_method,performance
+BERT,Original,0.9411106021275513
+BERT,P1_AdjectiveToRelativeClause,0.9087901460782817
+BERT,P2_AppositiveInsertion,0.9263500788924518
+BERT,P3_AdverbialPhraseInsertion,0.9091464345701634
+GPT-2,Original,0.9332213569501705
+GPT-2,P1_AdjectiveToRelativeClause,0.9014098844607319
+GPT-2,P2_AppositiveInsertion,0.9144398635924059
+GPT-2,P3_AdverbialPhraseInsertion,0.8859876825978521
+RNN,Original,0.5112230874942739
+RNN,P1_AdjectiveToRelativeClause,0.5070494223036596
+RNN,P2_AppositiveInsertion,0.5071512190156258
+RNN,P3_AdverbialPhraseInsertion,0.503232045604927
+T5,Original,0.8544816002443121
+T5,P1_AdjectiveToRelativeClause,0.8278108617091668
+T5,P2_AppositiveInsertion,0.8440474372677762
+T5,P3_AdverbialPhraseInsertion,0.836921667430142
